@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fffaf0;
+    margin: 0;
+    padding: 20px;
+    scroll-behavior: smooth;
+  }
+  
+  .navbar {
+    background-color: #f5deb3;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .navbar a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #8b4513;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #a0522d;
+    text-decoration: underline;
+  }
+  
+  h1 {
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  img {
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  
+  .university {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 40px;
+    color: peru;
+  }
+  
+  .card {
+    border: 2px solid peru;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .card-desc {
+    font-size: 14px;
+    padding-left: 10px;
+    line-height: 1.6;
+  }
